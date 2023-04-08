@@ -6,7 +6,7 @@ import os
 client = discord.Client()
 
 # Read messages from txt file and store them in a list
-with open('messages.txt', 'r') as f:
+with open('pesan.txt', 'r') as f:
     messages = f.readlines()
 
 # Remove newline characters from messages
