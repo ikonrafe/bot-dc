@@ -16,10 +16,10 @@ messages = [m.strip() for m in messages]
 server_id = 1234567890
 
 # Define time interval in seconds to send messages
-interval = 60
+interval = 150
 
 # Define time interval in seconds to delete messages
-delete_interval = 300
+delete_interval = 30
 
 # Define list of error messages
 error_messages = [
