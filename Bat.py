@@ -13,7 +13,7 @@ with open('pesan.txt', 'r') as f:
 messages = [m.strip() for m in messages]
 
 # Define server ID to send messages to
-server_id = 728154998571139134
+server_id = 968907246077624420
 
 # Define time interval in seconds to send messages
 interval = 150
@@ -86,7 +86,7 @@ async def on_message(message):
         await message.channel.send(f"Server ID has been set to {server_id}.")
 
 # Get Discord bot token from environment variable
-token = os.getenv('NzI4MTM3MzA4MTI5MTk4MDgw.GlR85J.cbgYbzSdeRrw6Lu4Ah4X0BKaAvMuYBpYguj4Jo')
+token = os.getenv('NzI4MTM3MzA4MTI5MTk4MDgw.G6_LCi.3sv80J_B0lT98w_aZOiwxHh5tVDc5g2D1X-48s')
 
 # Run the bot
 client.run(token)
